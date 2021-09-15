@@ -1,0 +1,11 @@
+#periodicos-españoles{
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+#periodicos-estadounidenses{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+#periodicos-estadounidenses span{
+    padding-left: 1em;
+}
