@@ -1,0 +1,20 @@
+table{
+    background-image: url("https://previews.123rf.com/images/nalinn/nalinn1504/nalinn150401333/38908448-impresiones-de-la-pata-del-perro-sin-patr%C3%B3n-con-huellas-de-patas-de-color-marr%C3%B3n.jpg");
+    text-align: center;
+    color: rgb(134, 54, 0);
+    width: 700px;
+    border: 2px outset grey;
+}
+td, th{
+    border: 2px inset grey;
+}
+th{
+    font-weight: normal;
+    background-color: green;
+}
+#titulos{
+    background-color:rgb(247, 174, 114);
+}
+#tamaños{
+    background-color: rgb(255, 224, 49)
+}
