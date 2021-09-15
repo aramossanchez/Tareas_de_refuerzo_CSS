@@ -1,0 +1,32 @@
+:root{
+    --borde: rgb(0, 131, 163);
+}
+body{
+    background-color: #f8f7bb;
+}
+.contenido{
+    font-weight: bold;
+    border: 3px outset; 
+    outline: 1px solid var(--borde);
+}
+td, th{
+    border: 1px inset; 
+    outline: 2px solid var(--borde);
+}
+.titulo{
+    background-color: #002E01;
+    color: #D5FFD6;
+    text-align: center;
+}
+.titulo td, th{
+    padding: 0 2em;
+}
+.impar{
+    background-color: #D5FFD6;
+}
+.par{
+    background-color: #6EA66F;
+}
+.precio{
+    text-align: center;
+}
