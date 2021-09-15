@@ -1,0 +1,30 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    width: 900px;
+    font-weight: bold;
+    border: 2px outset grey;
+}
+td{
+    border: 1px inset;
+    text-align: center;
+}
+.celda-central{
+    color: red;
+}
+#celda-1{
+    background-color: green;
+}
+#celda-especial-izquierda{
+    text-align: left;
+    background-color:cyan;
+}
+
+#celda-especial-derecha{
+    background-color:rgba(242, 79, 248, 0.685);
+    text-align:right;
+    vertical-align: bottom;
+}

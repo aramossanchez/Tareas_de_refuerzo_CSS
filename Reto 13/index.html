@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con celdas combinadas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <span>TÍTULO DE LA TABLA</span>
+        <table>
+            <tr>
+                <td colspan="3" id="celda-1">CELDA 1</td>
+            </tr>
+            <tr>
+                <td rowspan="2" id="celda-especial-izquierda">CELDA 2</td>
+                <td class="celda-central">CELDA 3</td>
+                <td>CELDA 4</td>
+            </tr>
+            <tr>
+                <td class="celda-central">CELDA 5</td>
+                <td rowspan="2" id="celda-especial-derecha">CELDA 6</td>
+            </tr>
+            <tr>
+                <td>CELDA 7</td>
+                <td class="celda-central">CELDA 8</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
