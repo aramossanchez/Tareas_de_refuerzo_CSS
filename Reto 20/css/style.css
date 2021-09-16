@@ -1,12 +1,10 @@
 table{
-    border:1px solid;
+    border: 1px solid;
 }
 td{
-    border:1px solid;
+    border: 1px solid;
 }
 .important{
     font-weight: bold;
-}
-.center{
     text-align: center;
 }
